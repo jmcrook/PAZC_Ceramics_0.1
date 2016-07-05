@@ -40,7 +40,7 @@
                   <Inventory_Number/>
                 </Col_0>
                 <Col_1>
-                  <Conjunto/>
+                  <Artifact_Number/>
                 </Col_1>
                 <Col_2>
                   <Unit/>
@@ -51,7 +51,7 @@
                   <Locus/>
                 </Col_0>
                 <Col_1>
-                  <Artifact_Number/>
+                  <Conjunto/>
                 </Col_1>
                 <Col_2>
                   <Special_Find_Number/>
@@ -255,10 +255,9 @@
           </group>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_type="measure" ref="Conjunto" faims_attribute_name="Conjunto" faims_style_class="required">
+            <input faims_attribute_type="measure" ref="Artifact_Number" faims_attribute_name="Artifact Number" faims_style_class="required">
               <!--WARNING: Style in c attribute not applied; styling conflict exists due to "notnull" flag-->
-              <label>{Conjunto}</label>
-              <!--WARNING: No type t was given for this view; assuming it is an input-->
+              <label>{Artifact_Number}</label>
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
@@ -282,9 +281,10 @@
           </group>
           <group ref="Col_1" faims_style="even">
             <label/>
-            <input faims_attribute_type="measure" ref="Artifact_Number" faims_attribute_name="Artifact Number" faims_style_class="required">
+            <input faims_attribute_type="measure" ref="Conjunto" faims_attribute_name="Conjunto" faims_style_class="required">
               <!--WARNING: Style in c attribute not applied; styling conflict exists due to "notnull" flag-->
-              <label>{Artifact_Number}</label>
+              <label>{Conjunto}</label>
+              <!--WARNING: No type t was given for this view; assuming it is an input-->
             </input>
           </group>
           <group ref="Col_2" faims_style="even">
