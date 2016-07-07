@@ -73,9 +73,9 @@
 <description/></term>
         <term>{_INK_}
 <description/></term>
-        <term>{_COL_}
+        <term>{_COLx_}
 <description/></term>
-        <term>{_UNK_}
+        <term>{_UNKx_}
 <description/></term>
       </lookup>
     </property>
@@ -98,7 +98,7 @@
 <description/></term>
         <term>{_LHC_}
 <description/></term>
-        <term><!--WARNING: Option is duplicated in this menu-->{_COL_}
+        <term>{_COL_}
 <description/></term>
         <term>{_ECO_}
 <description/></term>
@@ -108,7 +108,7 @@
 <description/></term>
         <term>{_MOD_}
 <description/></term>
-        <term><!--WARNING: Option is duplicated in this menu-->{_UNK_}
+        <term>{_UNK_}
 <description/></term>
       </lookup>
     </property>
@@ -167,13 +167,13 @@
       <formatString><![CDATA[{{if $1 then $1}}{{if and($1, $2) then " " }}{{if $2 then $2}}{{if $3 then " ($3)"}}{{if between($4,0,0.49) then "??" elsif lessThan($4,1) then "?" }}]]></formatString>
       <appendCharacterString><![CDATA[ - ]]></appendCharacterString>
       <lookup>
-        <term>{_A_}
+        <term>{_Ax_}
 <description/></term>
         <term>{_B_}
 <description/></term>
         <term>{_C_}
 <description/></term>
-        <term>{_CO_}
+        <term>{_COx_}
 <description/></term>
         <term>{_D_}
 <description/></term>
@@ -181,7 +181,7 @@
 <description/></term>
         <term>{_E_}
 <description/></term>
-        <term>{_F_}
+        <term>{_Fx_}
 <description/></term>
         <term>{_H_}
 <description/></term>
@@ -191,7 +191,7 @@
 <description/></term>
         <term>{_N_}
 <description/></term>
-        <term>{_O_}
+        <term>{_Ox_}
 <description/></term>
         <term>{_OB_}
 <description/></term>
@@ -205,7 +205,7 @@
 <description/></term>
         <term>{_P4_}
 <description/></term>
-        <term>{_R_}
+        <term>{_Rx_}
 <description/></term>
         <term>{_RB_}
 <description/></term>
@@ -276,7 +276,7 @@
       <appendCharacterString><![CDATA[ - ]]></appendCharacterString>
       <lookup>
         <term pictureURL="files/data/Gallery/Form/16_BLB.jpg">{_Bowls_}
-<description/><term pictureURL="files/data/Gallery/Form/16_BLB.jpg">{_BLB_}
+<description/><term pictureURL="files/data/Gallery/Form/16_BLB.jpg">{_BLBx_}
 <description/></term><term pictureURL="files/data/Gallery/Form/16_CBC.jpg">{_CBC_}
 <description/></term><term pictureURL="files/data/Gallery/Form/16_CBR.jpg">{_CBR_}
 <description/></term><term pictureURL="files/data/Gallery/Form/16_LOB.jpg">{_LOB_}
@@ -346,7 +346,7 @@
 <description/></term></term>
         <term pictureURL="files/data/Gallery/Form/16_ALS.jpg">{_Other_}
 <description/><term pictureURL="files/data/Gallery/Form/16_ALS.jpg">{_ALS_}
-<description/></term><term pictureURL="files/data/Gallery/Form/16_AP.jpg">{_AP_}
+<description/></term><term pictureURL="files/data/Gallery/Form/16_AP.jpg">{_APx_}
 <description/></term><term pictureURL="files/data/Gallery/Form/16_AZL.jpg">{_AZL_}
 <description/></term><term pictureURL="files/data/Gallery/Form/16_CIR.jpg">{_CIR_}
 <description/></term><term pictureURL="files/data/Gallery/Form/16_CLB.jpg">{_CLB_}
@@ -372,13 +372,13 @@
 <description/></term>
         <term pictureURL="files/data/Gallery/Firing/19_CI.jpg">{_CI_}
 <description/></term>
-        <term pictureURL="files/data/Gallery/Firing/19_CN.jpg">{_CN_}
+        <term pictureURL="files/data/Gallery/Firing/19_CN.jpg">{_CNxx_}
 <description/></term>
         <term pictureURL="files/data/Gallery/Firing/19_CO.jpg">{_CO_}
 <description/></term>
         <term pictureURL="files/data/Gallery/Firing/19_CR.jpg">{_CR_}
 <description/></term>
-        <term pictureURL="files/data/Gallery/Firing/19_CS.jpg">{_CS_}
+        <term pictureURL="files/data/Gallery/Firing/19_CS.jpg">{_CSx_}
 <description/></term>
         <term pictureURL="files/data/Gallery/Firing/19_CX.jpg">{_CX_}
 <description/></term>
@@ -392,9 +392,9 @@
 <description/></term>
         <term pictureURL="files/data/Gallery/Firing/19_IL.jpg">{_IL_}
 <description/></term>
-        <term pictureURL="files/data/Gallery/Firing/19_IM.jpg">{_IM_}
+        <term pictureURL="files/data/Gallery/Firing/19_IM.jpg">{_IMx_}
 <description/></term>
-        <term pictureURL="files/data/Gallery/Firing/19_IN.jpg">{_IN_}
+        <term pictureURL="files/data/Gallery/Firing/19_IN.jpg">{_INx_}
 <description/></term>
         <term pictureURL="files/data/Gallery/Firing/19_IO.jpg">{_IO_}
 <description/></term>
@@ -425,7 +425,7 @@
 <description/></term>
         <term pictureURL="files/data/Gallery/Surface/20_VN.jpg">{_VN_}
 <description/></term>
-        <term pictureURL="files/data/Gallery/Surface/20_SS.jpg">{_SS_}
+        <term pictureURL="files/data/Gallery/Surface/20_SS.jpg">{_SSx_}
 <description/></term>
         <term pictureURL="files/data/Gallery/Surface/20_SN.jpg">{_SN_}
 <description/></term>
